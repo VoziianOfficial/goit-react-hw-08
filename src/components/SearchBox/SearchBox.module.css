@@ -1,0 +1,16 @@
+.search {
+  display: inline-flex;
+  flex-direction: column;
+  gap: 3px;
+  margin-bottom: 40px;
+  color: brown;
+  font-weight: 600;
+  margin-top: 50px;
+}
+.input {
+  height: 30px;
+  border-radius: 12px;
+  padding: 0 15px;
+  border: 2px solid darkred;
+  outline: none;
+}

@@ -1,0 +1,22 @@
+.logged {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logged h1 {
+  margin-top: 40px;
+  font-weight: 400;
+  font-size: 40px;
+}
+
+.notLogged h1 {
+  margin-top: 40px;
+  font-weight: 400;
+  font-size: 40px;
+}
+.notLogged {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

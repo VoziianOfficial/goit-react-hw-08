@@ -1,0 +1,37 @@
+.userDiv {
+  position: relative;
+}
+
+.main_div {
+  display: flex;
+  gap: 20px;
+}
+
+.user_info {
+  font-size: 16px;
+}
+
+.modal {
+  height: 50px;
+  background-color: rgb(255, 255, 255);
+  display: inline-block;
+  border: 1px solid black;
+}
+
+.modalOverlay {
+  background-color: transparent;
+}
+
+.btn {
+  background-color: chocolate;
+  border-radius: 10px;
+  border: none;
+  min-width: 22px;
+  color: white;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.btn:hover {
+  background-color: cadetblue;
+}

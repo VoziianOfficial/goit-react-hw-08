@@ -1,0 +1,22 @@
+.form {
+  display: flex;
+  margin-top: 22px;
+  margin-left: 22px;
+  width: 250px;
+  padding: 12px;
+  flex-direction: column;
+  border: 1px solid black;
+  border-radius: 12px;
+  background-color: blanchedalmond;
+  gap: 15px;
+  font-weight: 600;
+}
+
+.button {
+  padding: 5px 10px;
+}
+
+.label {
+  display: flex;
+  flex-direction: column;
+}
