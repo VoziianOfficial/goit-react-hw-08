@@ -1,6 +1,6 @@
 import { FaUser } from "react-icons/fa";
 import { BsFillTelephoneFill } from "react-icons/bs";
-import css from "./contact.module.css";
+import css from './Contact.module.css';
 import { deleteContact, changeContact } from "../../redux/contacts/operations";
 import Modal from "react-modal";
 import { useDispatch } from "react-redux";
