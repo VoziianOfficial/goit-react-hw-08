@@ -1,15 +1,10 @@
 import { useState } from "react";
 import { changeFilter } from "../../redux/filters/slice";
 import { useDispatch } from "react-redux";
-
 import css from "./SearchBox.module.css";
 
 export default function SearchBox() {
   const dispatch = useDispatch();
-
-  const [inputValue, setInputValue] = useState(
-    localStorage.getItem("filter-value") || ""
-  );
 
   const handleChange = (e) => {
     const newValue = e.target.value;
@@ -17,6 +12,10 @@ export default function SearchBox() {
     dispatch(changeFilter(newValue));
     localStorage.setItem("filter-value", newValue);
   };
+
+  const [inputValue, setInputValue] = useState(
+    localStorage.getItem("filter-value") || ""
+  );
 
   return (
     <div>
