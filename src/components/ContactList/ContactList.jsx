@@ -2,13 +2,13 @@ import { useSelector } from "react-redux";
 import { selectError, selectLoading } from "../../redux/contacts/selectors";
 import { selectFilteredContacts } from "../../redux/filters/selectors";
 import { Rings } from "react-loader-spinner";
-import Contact from "../Contact/Contact";
 import css from "./ContactList.module.css";
+import Contact from "../Contact/Contact";
 
 export default function ContactList() {
-  const loading = useSelector(selectLoading);
-  const error = useSelector(selectError);
   const filteredUsers = useSelector(selectFilteredContacts);
+  const error = useSelector(selectError);
+  const loading = useSelector(selectLoading);
 
   return (
     <div>
