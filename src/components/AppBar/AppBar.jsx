@@ -6,7 +6,7 @@ import {
 import AuthNav from "../AuthNav/AuthNav";
 import Navigation from "../Navigation/Navigation";
 import UserMenu from "../UserMenu/UserMenu";
-import { header, header_container } from "./appBar.module.css";
+import { header, header_container } from "./AppBar.module.css";
 export default function AppBar() {
   const isLoggedIn = useSelector(selectIsLoggedIn);
   const isRefreshing = useSelector(selectIsRefreshing);
